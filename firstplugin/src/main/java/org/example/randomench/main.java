@@ -18,7 +18,6 @@ public class main extends JavaPlugin {
         Random rnd = new Random();
 
         getLogger().info("onEnable is called!");
-        getServer().getPluginManager().registerEvents(new MyListener(), this);
         this.getCommand("start").setExecutor(new CommandStart(this));
 
     }

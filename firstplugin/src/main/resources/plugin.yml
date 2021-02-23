@@ -1,0 +1,9 @@
+api-version: 1.16
+name: firstplugin
+version: 0.01
+main: org.example.firstplugin.firstplugin
+commands:
+  start:
+    description: Starts Plugin
+    usage: /start
+    permission:

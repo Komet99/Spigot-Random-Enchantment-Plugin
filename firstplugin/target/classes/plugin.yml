@@ -1,0 +1,13 @@
+api-version: 1.16
+name: firstplugin
+version: 0.01
+main: org.example.firstplugin.firstplugin
+commands:
+  kit:
+    description: Delivers kits
+    usage: /kit kit
+    permission: op
+  start:
+    description: Starts Plugin
+    usage: /start
+    permission:

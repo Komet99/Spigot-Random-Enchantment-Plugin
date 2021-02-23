@@ -87,9 +87,9 @@ public class CommandStart implements CommandExecutor {
 
 
         if (gendone) {
-            item.addUnsafeEnchantment(enchantments.get(rnd.nextInt(enchantments.size())), rnd.nextInt(33) - 1);
+            item.addUnsafeEnchantment(enchantments.get(rnd.nextInt(enchantments.size())), rnd.nextInt(31) + 1);
             player.getInventory().setItem(invSlot, item);
-            player.sendMessage("Dein " + player.getInventory().getItem(invSlot).getType().getKey().getNamespace() + " wurde verzaubert!");
+            player.sendMessage("Your " + player.getInventory().getItem(invSlot).getType().getKey().getNamespace() + " was enchanted!");
         }
 
     }

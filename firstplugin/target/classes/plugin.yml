@@ -1,12 +1,8 @@
 api-version: 1.16
-name: firstplugin
+name: randomench
 version: 0.01
-main: org.example.firstplugin.firstplugin
+main: org.example.randomench.main
 commands:
-  kit:
-    description: Delivers kits
-    usage: /kit kit
-    permission: op
   start:
     description: Starts Plugin
     usage: /start

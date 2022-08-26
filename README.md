@@ -6,3 +6,5 @@ The enchantment's level randomly varies between 1 and 32, creating sometimes bro
 Items in the player's hotbars and armor slots will also be affected.
 
 Also the first plugin I have ever programmed, hence the name.
+
+Use */start* to start the plugin.
